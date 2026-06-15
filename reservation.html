@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reserve a table at The Dhaba for fresh Indian meals and family dining.">
+  <title>Reservation | The Dhaba</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-header">
+    <div class="nav-wrapper">
+      <a class="brand" href="index.html">The Dhaba</a>
+      <div class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="reservation.html">Reservation</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-main">
+    <div class="page-heading">
+      <div class="container">
+        <p class="eyebrow">Plan your meal</p>
+        <h1>Book a Table</h1>
+        <p>Share your preferred date, guest count, and any special request before your visit.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container narrow">
+        <form class="reservation-form" action="#" method="post">
+          <div class="form-grid">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+
+            <label>
+              Date
+              <input type="date" name="date" required>
+            </label>
+
+            <label>
+              Guests
+              <input type="number" name="guests" min="1" max="20" required>
+            </label>
+          </div>
+
+          <label>
+            Special Request
+            <textarea name="request" rows="5" placeholder="Dietary needs, celebration notes, or seating preference"></textarea>
+          </label>
+
+          <button class="button button-primary" type="submit">Book Table</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <p>&copy; 2026 The Dhaba. All rights reserved.</p>
+  </div>
+</body>
+</html>
