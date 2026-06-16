@@ -184,7 +184,7 @@ a {
 .page-heading {
   background:
     linear-gradient(90deg, rgba(28, 38, 32, 0.9), rgba(28, 38, 32, 0.52)),
-    url("../images/restaurant.jpg") center / cover no-repeat;
+    url("restaurant.jpg") center / cover no-repeat;
   color: #ffffff;
   padding: 82px 0;
 }
